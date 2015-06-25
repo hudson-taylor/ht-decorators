@@ -1,0 +1,22 @@
+{
+  "name": "ht-decorators",
+  "version": "0.0.1",
+  "description": "ES7 decorator helpers for HT",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha -R spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hudson-taylor/ht-decorators.git"
+  },
+  "keywords": [
+    "hudson-taylor"
+  ],
+  "author": "Adam Brady <adam@boxxen.org>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hudson-taylor/ht-decorators/issues"
+  },
+  "homepage": "https://github.com/hudson-taylor/ht-decorators#readme"
+}
