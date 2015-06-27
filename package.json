@@ -4,7 +4,8 @@
   "description": "ES7 decorator helpers for HT",
   "main": "lib/index.js",
   "scripts": {
-    "test": "mocha -R spec"
+    "test": "npm run build && mocha --recursive --reporter spec --bail --check-leaks test/",
+    "build": "./node_modules/.bin/babel src -d lib && ./node_modules/.bin/babel test-src -d test"
   },
   "repository": {
     "type": "git",
@@ -18,5 +19,9 @@
   "bugs": {
     "url": "https://github.com/hudson-taylor/ht-decorators/issues"
   },
-  "homepage": "https://github.com/hudson-taylor/ht-decorators#readme"
+  "homepage": "https://github.com/hudson-taylor/ht-decorators#readme",
+  "devDependencies": {
+    "babel": "^5.6.14",
+    "mocha": "^2.2.5"
+  }
 }
