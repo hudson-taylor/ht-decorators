@@ -1,6 +1,6 @@
 {
   "name": "ht-decorators",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "ES7 decorator helpers for HT",
   "main": "lib/index.js",
   "scripts": {
